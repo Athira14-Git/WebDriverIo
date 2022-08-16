@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660552128373' stop='1660552145140'>
+    <name>My Customer registration</name>
+    <title>My Customer registration</title>
+    <test-cases>
+        <test-case start='1660552128373' status='broken' stop='1660552145139'>
+            <name>should register with valid credentials</name>
+            <title>should register with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1c1661eb-8758-43fc-9d38-8052c19564fb-attachment.png' type='image/png' size='44383'/>
+            </attachments>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=104.0.5112.81)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=104.0.5112.81)
+                    at getErrorFromResponseBody (C:\Users\LENOVO\Desktop\Wdio Scripts\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\LENOVO\Desktop\Wdio Scripts\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.wrapCommandFn (C:\Users\LENOVO\Desktop\Wdio Scripts\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\LENOVO\Desktop\Wdio Scripts\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\LENOVO\Desktop\Wdio Scripts\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\LENOVO\Desktop\Wdio Scripts\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\LENOVO\Desktop\Wdio Scripts\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\LENOVO\Desktop\Wdio Scripts\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\LENOVO\Desktop\Wdio Scripts\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,120 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660314573163' stop='1660314581170'>
+    <name>My service registration</name>
+    <title>My service registration</title>
+    <test-cases>
+        <test-case start='1660314573164' status='broken' stop='1660314581168'>
+            <name>should register with valid credentials</name>
+            <title>should register with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps>
+                <step start='1660314573171' status='passed' stop='1660314575009'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2b70a65d-b5f5-4b3c-b802-db23e0749bd7-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660314575011' status='passed' stop='1660314575045'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5183b0a8-3968-44c8-89e2-4f02eff02dad-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='f44aa136-0a08-4dd4-88d0-c6d99ab7883a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660314575054' status='passed' stop='1660314575119'>
+                    <name>POST /session/:sessionId/element/928ca1f2-c2c8-44b4-aaaa-b3dd435a6ca0/clear</name>
+                    <title>POST /session/:sessionId/element/928ca1f2-c2c8-44b4-aaaa-b3dd435a6ca0/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660314575126' status='passed' stop='1660314575234'>
+                    <name>POST /session/:sessionId/element/928ca1f2-c2c8-44b4-aaaa-b3dd435a6ca0/value</name>
+                    <title>POST /session/:sessionId/element/928ca1f2-c2c8-44b4-aaaa-b3dd435a6ca0/value</title>
+                    <attachments>
+                        <attachment title='Request' source='f8fcecb5-4a62-486b-973c-ec66193ab795-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660314575235' status='passed' stop='1660314575261'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1ca1b84e-4eb3-45c5-9cff-f1d9c7a15e69-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='aeb1ae8b-cd03-41ba-afe0-20de51ba5f80-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660314575264' status='passed' stop='1660314575323'>
+                    <name>POST /session/:sessionId/element/c9eaf06b-7879-4887-a471-d855055af068/clear</name>
+                    <title>POST /session/:sessionId/element/c9eaf06b-7879-4887-a471-d855055af068/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660314575324' status='passed' stop='1660314575424'>
+                    <name>POST /session/:sessionId/element/c9eaf06b-7879-4887-a471-d855055af068/value</name>
+                    <title>POST /session/:sessionId/element/c9eaf06b-7879-4887-a471-d855055af068/value</title>
+                    <attachments>
+                        <attachment title='Request' source='3b088c71-0fa0-40d9-8d86-b19ed32f06ff-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660314575424' status='passed' stop='1660314575458'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b7ff4267-340f-4057-8494-97ce864b2c1f-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='0422ea23-59a0-435f-96f0-569b5fa5e309-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660314575462' status='passed' stop='1660314580828'>
+                    <name>POST /session/:sessionId/element/2a71cf50-22a5-40a9-9d34-d611b7fb2ef3/click</name>
+                    <title>POST /session/:sessionId/element/2a71cf50-22a5-40a9-9d34-d611b7fb2ef3/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660314580829' status='broken' stop='1660314581168'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c806b98e-5b36-4613-97b4-5ad90609f8d7-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps>
+                        <step start='1660314580955' status='passed' stop='1660314581166'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='18dd4172-a383-48f7-ade4-24f04bf59e6a-attachment.png' type='image/png' size='10500'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector "//a[href*='settings']" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "//a[href*='settings']" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (C:\Users\LENOVO\Desktop\Wdio Scripts\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\LENOVO\Desktop\Wdio Scripts\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\LENOVO\Desktop\Wdio Scripts\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (C:\Users\LENOVO\Desktop\Wdio Scripts\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at async Browser.wrapCommandFn (C:\Users\LENOVO\Desktop\Wdio Scripts\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async ServicePage.service (C:\Users\LENOVO\Desktop\Wdio Scripts\test\pageobjects\service.page.js:46:9)
+                    at async Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio Scripts\test\specs\setmore_addservice.js:10:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

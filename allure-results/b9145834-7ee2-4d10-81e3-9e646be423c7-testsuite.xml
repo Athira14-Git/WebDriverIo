@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660549165049' stop='1660549166887'>
+    <name>My staff images</name>
+    <title>My staff images</title>
+    <test-cases>
+        <test-case start='1660549165049' status='broken' stop='1660549166887'>
+            <name>should add staff images</name>
+            <title>should add staff images</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='94bd48b6-f528-4b88-bad3-6af81b5a81aa-attachment.png' type='image/png' size='37291'/>
+            </attachments>
+            <failure>
+                <message>LoginPage is not defined</message>
+                <stack-trace>ReferenceError: LoginPage is not defined
+                    at Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio Scripts\test\specs\setmore_addstaffimg.js:6:3)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

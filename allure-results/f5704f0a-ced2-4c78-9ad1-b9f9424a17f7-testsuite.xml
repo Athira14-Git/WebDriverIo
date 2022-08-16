@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660542571790' stop='1660542592770'>
+    <name>My Customer registration</name>
+    <title>My Customer registration</title>
+    <test-cases>
+        <test-case start='1660542571791' status='broken' stop='1660542592768'>
+            <name>should add customer</name>
+            <title>should add customer</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='98bf2c65-a0ee-4ac5-afd3-f2391d6a1459-attachment.png' type='image/png' size='7603'/>
+            </attachments>
+            <failure>
+                <message>this.customertab.click is not a function</message>
+                <stack-trace>TypeError: this.customertab.click is not a function
+                    at CustomerPage.customer (C:\Users\LENOVO\Desktop\Wdio Scripts\test\pageobjects\addcustomer.page.js:33:32)
+                    at Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio Scripts\test\specs\setmore_addcustomer.js:10:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

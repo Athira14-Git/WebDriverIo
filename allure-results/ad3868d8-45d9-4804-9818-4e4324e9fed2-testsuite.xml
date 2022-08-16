@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660543714365' stop='1660543725461'>
+    <name>My Activations</name>
+    <title>My Activations</title>
+    <test-cases>
+        <test-case start='1660543714366' status='broken' stop='1660543725460'>
+            <name>should activate features</name>
+            <title>should activate features</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1beca00b-d64a-41c8-9ff5-16a44213c1ef-attachment.png' type='image/png' size='7739'/>
+            </attachments>
+            <failure>
+                <message>this.configurebutton.click is not a function</message>
+                <stack-trace>TypeError: this.configurebutton.click is not a function
+                    at HomePage.activation (C:\Users\LENOVO\Desktop\Wdio Scripts\test\pageobjects\activations.page.js:24:36)
+                    at Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio Scripts\test\specs\setmore_actdeact.js:11:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

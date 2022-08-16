@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660543396627' stop='1660543423106'>
+    <name>My Activations</name>
+    <title>My Activations</title>
+    <test-cases>
+        <test-case start='1660543396628' status='broken' stop='1660543423104'>
+            <name>should activate features</name>
+            <title>should activate features</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d70dec1f-6807-4bfb-8ed9-f068627a98b6-attachment.png' type='image/png' size='51484'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'click')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'click')
+                    at HomePage.activation (C:\Users\LENOVO\Desktop\Wdio Scripts\test\pageobjects\activations.page.js:24:26)
+                    at Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio Scripts\test\specs\setmore_actdeact.js:11:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

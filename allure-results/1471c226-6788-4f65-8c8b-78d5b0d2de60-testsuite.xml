@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660549974445' stop='1660549989502'>
+    <name>My staff images</name>
+    <title>My staff images</title>
+    <test-cases>
+        <test-case start='1660549974446' status='broken' stop='1660549989502'>
+            <name>should add staff images</name>
+            <title>should add staff images</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='59270803-43d2-4ebc-ae96-9bca825381e0-attachment.png' type='image/png' size='9848'/>
+            </attachments>
+            <failure>
+                <message>StaffImagePage.staffimg is not a function</message>
+                <stack-trace>TypeError: StaffImagePage.staffimg is not a function
+                    at Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio Scripts\test\specs\setmore_addstaffimg.js:10:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660492676250' stop='1660492686025'>
+    <name>My Customer registration</name>
+    <title>My Customer registration</title>
+    <test-cases>
+        <test-case start='1660492676252' status='broken' stop='1660492686023'>
+            <name>should register with valid credentials</name>
+            <title>should register with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='083e572a-1118-4153-8ec4-f61899a93419-attachment.png' type='image/png' size='19193'/>
+            </attachments>
+            <failure>
+                <message>this.custmr.click is not a function</message>
+                <stack-trace>TypeError: this.custmr.click is not a function
+                    at CustomerPage.customer (C:\Users\LENOVO\Desktop\Wdio Scripts\test\pageobjects\customer.page.js:33:27)
+                    at Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio Scripts\test\specs\setmore_addcustomer.js:10:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660544606846' stop='1660544619032'>
+    <name>My service Deletion</name>
+    <title>My service Deletion</title>
+    <test-cases>
+        <test-case start='1660544606847' status='broken' stop='1660544619030'>
+            <name>should delete service</name>
+            <title>should delete service</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9bc31b38-be6d-4ae8-b68d-b703d45d7153-attachment.png' type='image/png' size='7244'/>
+            </attachments>
+            <failure>
+                <message>this.stngs.click is not a function</message>
+                <stack-trace>TypeError: this.stngs.click is not a function
+                    at DeleteServicePage.servicedelete (C:\Users\LENOVO\Desktop\Wdio Scripts\test\pageobjects\deleteservice.page.js:29:26)
+                    at Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio Scripts\test\specs\setmore_deleteservice.js:8:33)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

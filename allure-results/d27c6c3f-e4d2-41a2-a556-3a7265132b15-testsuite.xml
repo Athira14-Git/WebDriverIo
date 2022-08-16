@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660373022316' stop='1660373041636'>
+    <name>My classes</name>
+    <title>My classes</title>
+    <test-cases>
+        <test-case start='1660373022316' status='broken' stop='1660373041635'>
+            <name>should add classes</name>
+            <title>should add classes</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3893a79e-7960-4fb4-b3d5-4f4826aaf1a2-attachment.png' type='image/png' size='97579'/>
+            </attachments>
+            <failure>
+                <message>this.addclass.waitForClickable is not a function</message>
+                <stack-trace>TypeError: this.addclass.waitForClickable is not a function
+                    at ClsPage.addclass (C:\Users\LENOVO\Desktop\Wdio Scripts\test\pageobjects\addclass.page.js:54:29)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio Scripts\test\specs\setmore_addclass.js:11:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
